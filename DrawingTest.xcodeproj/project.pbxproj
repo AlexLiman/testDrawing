@@ -15,6 +15,7 @@
 		FA69568B1CCF531200E6338A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6956891CCF531200E6338A /* LaunchScreen.storyboard */; };
 		FA6956961CCF531200E6338A /* DrawingTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6956951CCF531200E6338A /* DrawingTestTests.m */; };
 		FA6956A11CCF531200E6338A /* DrawingTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6956A01CCF531200E6338A /* DrawingTestUITests.m */; };
+		FA6956B01CCF5C5E00E6338A /* ALDrawnStar.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6956AF1CCF5C5E00E6338A /* ALDrawnStar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FA69569C1CCF531200E6338A /* DrawingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6956A01CCF531200E6338A /* DrawingTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingTestUITests.m; sourceTree = "<group>"; };
 		FA6956A21CCF531200E6338A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6956AE1CCF5C5E00E6338A /* ALDrawnStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALDrawnStar.h; path = ../ALDrawnStar.h; sourceTree = "<group>"; };
+		FA6956AF1CCF5C5E00E6338A /* ALDrawnStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALDrawnStar.m; path = ../ALDrawnStar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +104,12 @@
 		FA69567A1CCF531200E6338A /* DrawingTest */ = {
 			isa = PBXGroup;
 			children = (
-				FA69567E1CCF531200E6338A /* AppDelegate.h */,
-				FA69567F1CCF531200E6338A /* AppDelegate.m */,
+				FA6956AE1CCF5C5E00E6338A /* ALDrawnStar.h */,
+				FA6956AF1CCF5C5E00E6338A /* ALDrawnStar.m */,
 				FA6956811CCF531200E6338A /* ViewController.h */,
 				FA6956821CCF531200E6338A /* ViewController.m */,
+				FA69567E1CCF531200E6338A /* AppDelegate.h */,
+				FA69567F1CCF531200E6338A /* AppDelegate.m */,
 				FA6956841CCF531200E6338A /* Main.storyboard */,
 				FA6956871CCF531200E6338A /* Assets.xcassets */,
 				FA6956891CCF531200E6338A /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				FA6956831CCF531200E6338A /* ViewController.m in Sources */,
 				FA6956801CCF531200E6338A /* AppDelegate.m in Sources */,
 				FA69567D1CCF531200E6338A /* main.m in Sources */,
+				FA6956B01CCF5C5E00E6338A /* ALDrawnStar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
